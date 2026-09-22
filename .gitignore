@@ -1,4 +1,6 @@
 ansible-adhoc/
 vagrant-windows11/
 terraform-multi-vm/
+devops-toolkit-index/
+cloud-init-tools-ready/
 .DS_Store

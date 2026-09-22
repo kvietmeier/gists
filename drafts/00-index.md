@@ -27,11 +27,11 @@ elbencho    →  multi-client benchmark examples
 
 | Draft | Outcome | Source of truth |
 |-------|---------|-----------------|
-| [Cloud-init tools-ready client](./01-cloud-init-tools-ready-client.md) | Boot → packages + fio/elbencho binaries + `~/tools` — **no auto I/O** | `Terraform/scripts/cloud-init/` |
+| [Cloud-init tools-ready client](https://gist.github.com/kvietmeier/80a377a5a41d7764f755a1e836a0a194) | Boot → packages + fio/elbencho binaries + `~/tools` — **no auto I/O** | `Terraform/scripts/cloud-init/` |
 | FIO smoke / baseline | First proof the mount and platform work | `sys-perf-tools/fio-file/` |
 | Ansible day-2 | Users, `/mount/vast`, NFS driver, lab polish | `ansible/` |
 | Elbencho examples | Multi-client service + example scripts you extend | `ansible/playbooks/elbencho.yml` |
-| Toolkit index (this page) | CV landing page — publish as a pinned gist | `personal/docs/gists/` |
+| [Toolkit index](https://gist.github.com/kvietmeier/bb24a7e0500bf3ab106edb875eaf4957) (this page) | CV landing page | `~/github/gists/` |
 
 ---
 
